@@ -8,6 +8,8 @@ cask "dictionary-openthesaurus-de-tekl" do
       verified: "github.com/Tekl/openthesaurus-deutsch/"
   homepage "https://tekl.de/"
 
+  disable! date: "2026-01-06", because: "use Tekl’s tap and cask instead", replacement_cask: "tekl/dictionaries/openthesaurus-deutsch"
+
   livecheck do
     url "https://github.com/Tekl/openthesaurus-deutsch/releases/latest"
     strategy :page_match do |page|
