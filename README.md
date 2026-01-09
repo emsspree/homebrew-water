@@ -9,7 +9,7 @@
 
 To add this Tap, run:
 
-    brew tap emsspree/homebrew-water
+    brew tap emsspree/water
 
 ## Casks
 
